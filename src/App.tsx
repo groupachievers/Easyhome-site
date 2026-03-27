@@ -1,4 +1,4 @@
-﻿import './App.css'
+import './App.css'
 import livingGallery from './assets/interiors/optimized/living-gallery-1600.jpg'
 import lounge from './assets/interiors/optimized/lounge-1280.jpg'
 import sofa from './assets/interiors/optimized/sofa-1280.jpg'
@@ -76,6 +76,8 @@ const stayCards = [
 ]
 
 function App() {
+  const apkDownloadUrl = import.meta.env.VITE_APK_URL ?? `${import.meta.env.BASE_URL}Easyhome.apk`
+
   return (
     <main className="site-page" id="top">
       <div className="site-frame">
@@ -118,7 +120,11 @@ function App() {
             </p>
 
             <div className="hero-actions">
-              <a className="button-link button-link--solid button-link--large" href="#accommodation">
+              <a
+                className='button-link button-link--solid button-link--large'
+                href={apkDownloadUrl}
+                download='Easyhome.apk'
+              >
                 Install App
               </a>
             </div>
