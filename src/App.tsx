@@ -76,7 +76,7 @@ const stayCards = [
 ]
 
 function App() {
-  const apkDownloadUrl = import.meta.env.VITE_APK_URL ?? `${import.meta.env.BASE_URL}Easyhome.apk`
+  const apkDownloadUrl = import.meta.env.VITE_APK_URL ?? 'https://github.com/groupachievers/Easyhome-site/releases/download/easyhome-apk/Easyhome.apk'
 
   return (
     <main className="site-page" id="top">
