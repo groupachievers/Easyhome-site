@@ -1,0 +1,35 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="80" y1="40" x2="650" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDF8FE" />
+      <stop offset="1" stop-color="#CCE6F3" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E8F5FD" />
+      <stop offset="1" stop-color="#A5C4D8" />
+    </linearGradient>
+    <filter id="shadow" x="120" y="52" width="528" height="452" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#15202C" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <rect width="760" height="560" fill="url(#sky)" />
+  <g filter="url(#shadow)">
+    <path d="M312 108H536V438H312V108Z" fill="#FFFFFF" />
+    <path d="M210 214H366V438H210V214Z" fill="#FFFFFF" />
+    <path d="M464 214H608V438H464V214Z" fill="#F9FDFF" />
+    <path d="M366 276H464V438H366V276Z" fill="#F6FBFE" />
+    <path d="M257 364H442V438H257V364Z" fill="#FDFEFE" />
+    <path d="M256 260L489 192V260H256Z" fill="#FFFFFF" />
+    <path d="M442 240L570 198V438H442V240Z" fill="#F7FCFF" />
+    <path d="M210 214L312 108V438H210V214Z" fill="#F4FAFE" />
+
+    <path d="M248 242H292V324H248V242ZM248 340H292V422H248V340ZM336 166H380V248H336V166ZM336 266H380V348H336V266ZM336 364H380V438H336V364ZM418 140H462V222H418V140ZM418 238H462V320H418V238ZM418 338H462V420H418V338ZM500 140H544V222H500V140ZM500 238H544V320H500V238ZM500 338H544V420H500V338Z" fill="url(#glass)" />
+    <path d="M564 232H590V300H564V232ZM564 322H590V390H564V322Z" fill="url(#glass)" />
+
+    <path d="M210 214L312 108H536" stroke="#DDE9F1" stroke-width="5" />
+    <path d="M312 108V438M536 108V438M210 214V438M464 214V438" stroke="#E7EEF4" stroke-width="3" opacity="0.85" />
+  </g>
+
+  <rect y="438" width="760" height="122" fill="#F4F8FB" />
+</svg>

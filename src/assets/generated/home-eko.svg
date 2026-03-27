@@ -1,0 +1,35 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="112" y1="42" x2="672" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6F7FF" />
+      <stop offset="1" stop-color="#C7E4F4" />
+    </linearGradient>
+    <linearGradient id="tower" x1="324" y1="46" x2="606" y2="478" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#48B4F0" />
+      <stop offset="0.52" stop-color="#2677B8" />
+      <stop offset="1" stop-color="#15365E" />
+    </linearGradient>
+    <linearGradient id="side" x1="252" y1="78" x2="436" y2="506" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDF4F9" />
+      <stop offset="1" stop-color="#BCCAD7" />
+    </linearGradient>
+    <filter id="shadow" x="150" y="0" width="500" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#12202B" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <rect width="760" height="560" fill="url(#sky)" />
+  <rect y="458" width="760" height="102" fill="#F6FAFC" />
+
+  <g filter="url(#shadow)">
+    <path d="M266 88L506 26V458H266V88Z" fill="url(#tower)" />
+    <path d="M190 120L266 88V458H190V120Z" fill="url(#side)" />
+    <path d="M506 26L568 90V458H506V26Z" fill="#162A4E" />
+    <path d="M190 120L266 88L506 26L568 90" stroke="#C8D5E0" stroke-width="4" />
+
+    <path d="M222 150H246V186H222V150ZM222 208H246V244H222V208ZM222 266H246V302H222V266ZM222 324H246V360H222V324ZM222 382H246V418H222V382Z" fill="#96AEC0" />
+    <path d="M304 118H462V150H304V118ZM304 182H462V214H304V182ZM304 246H462V278H304V246ZM304 310H462V342H304V310ZM304 374H462V406H304V374Z" fill="#C1ECFF" opacity="0.6" />
+    <path d="M314 134L446 101M314 198L446 165M314 262L446 229M314 326L446 293M314 390L446 357" stroke="#EAF8FF" stroke-opacity="0.85" stroke-width="3" />
+    <path d="M528 106H546V144H528V106ZM528 166H546V204H528V166ZM528 226H546V264H528V226ZM528 286H546V324H528V286ZM528 346H546V384H528V346Z" fill="#0A162F" opacity="0.65" />
+  </g>
+</svg>

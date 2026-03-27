@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="roof" x1="6" y1="10" x2="58" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C9BE0" />
+      <stop offset="1" stop-color="#4339AE" />
+    </linearGradient>
+  </defs>
+  <path d="M5 39.5L31 15L48.5 31.2L42.8 36.9L31 26L11.2 44.5H5V39.5Z" fill="#1C9BE0" />
+  <path d="M18 26.5L32 13L41.4 21.8L54.5 8.5L60 14L48.3 25.7V50H41V32.5L32 41.5L23.5 33V50H18V26.5Z" fill="#4339AE" />
+  <path d="M28 24H36V32H28V24Z" fill="#1C9BE0" />
+  <path d="M9 50H58" stroke="url(#roof)" stroke-width="5" stroke-linecap="round" />
+</svg>

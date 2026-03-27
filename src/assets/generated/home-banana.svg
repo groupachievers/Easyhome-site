@@ -1,0 +1,43 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="84" y1="52" x2="676" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF7FF" />
+      <stop offset="1" stop-color="#C6E4F2" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="760" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#17212A" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <rect width="760" height="560" fill="url(#sky)" />
+  <rect y="406" width="760" height="154" fill="#F8FBFD" />
+  <rect y="468" width="760" height="92" fill="#14171D" />
+
+  <g filter="url(#shadow)">
+    <path d="M80 390L195 180L308 390H80Z" fill="#1B1E25" />
+    <path d="M112 389L196 234L279 389H112Z" fill="#F5FBFF" />
+    <path d="M133 390V243L197 185L258 243V390H133Z" fill="#F4FAFD" />
+    <path d="M132 240L197 181L261 240" stroke="#1B1E25" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="160" y="296" width="24" height="94" fill="#1B1E25" />
+    <rect x="206" y="264" width="34" height="126" fill="#1B1E25" />
+    <rect x="135" y="274" width="22" height="58" fill="#1B1E25" />
+
+    <path d="M244 388L355 156L470 388H244Z" fill="#1B1E25" />
+    <path d="M272 388L356 214L437 388H272Z" fill="#F5FBFF" />
+    <path d="M294 388V223L357 162L418 223V388H294Z" fill="#F4FAFD" />
+    <path d="M294 221L357 162L421 221" stroke="#1B1E25" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="320" y="282" width="23" height="106" fill="#1B1E25" />
+    <rect x="365" y="254" width="34" height="134" fill="#1B1E25" />
+    <rect x="426" y="269" width="18" height="58" fill="#1B1E25" />
+
+    <path d="M412 390L533 132L655 390H412Z" fill="#1B1E25" />
+    <path d="M444 390L535 189L624 390H444Z" fill="#F5FBFF" />
+    <path d="M468 390V198L535 136L600 198V390H468Z" fill="#F4FAFD" />
+    <path d="M468 196L535 136L601 196" stroke="#1B1E25" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="492" y="291" width="23" height="99" fill="#1B1E25" />
+    <rect x="539" y="257" width="33" height="133" fill="#1B1E25" />
+    <rect x="605" y="274" width="18" height="58" fill="#1B1E25" />
+  </g>
+
+  <rect x="90" y="404" width="580" height="6" fill="#E2EBF1" opacity="0.7" />
+</svg>
