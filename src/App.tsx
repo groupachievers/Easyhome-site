@@ -9,8 +9,6 @@ import lounge from './assets/interiors/optimized/lounge-1280.jpg'
 import sofa from './assets/interiors/optimized/sofa-1280.jpg'
 import vase from './assets/interiors/vase.jpg'
 
-const trustedBrands = ['Samsonite', 'airbnb', 'Emirates', 'Unitedtravel']
-
 const previewCards = [
   {
     image: lounge,
@@ -361,14 +359,6 @@ function App() {
               </a>
             </div>
 
-            <div className="trusted-row">
-              <span className="trusted-row__label">Trusted by</span>
-              <div className="trusted-row__brands" aria-label="Trusted brands">
-                {trustedBrands.map((brand) => (
-                  <span key={brand}>{brand}</span>
-                ))}
-              </div>
-            </div>
           </div>
 
           <div className="hero-media">
