@@ -305,8 +305,7 @@ function App() {
     accommodationCategories.find((category) => category.id === activeCategoryId) ??
     accommodationCategories[0]
   const apkDownloadUrl =
-    import.meta.env.VITE_APK_URL ??
-    'https://github.com/groupachievers/Easyhome-site/releases/download/easyhome-apk/Easyhome.apk'
+    'https://github.com/groupachievers/Easyhome-/releases/download/v1.2/Easyhome-v1.2.1.apk'
 
   return (
     <main className="site-page" id="top">
@@ -353,7 +352,7 @@ function App() {
               <a
                 className="button-link button-link--solid button-link--large"
                 href={apkDownloadUrl}
-                download="Easyhome.apk"
+                download="Easyhome-v1.2.1.apk"
               >
                 Install App
               </a>
